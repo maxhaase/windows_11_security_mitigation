@@ -46,52 +46,47 @@ A comprehensive PowerShell script designed to enhance the security of Windows 11
 .\Windows11-Hardening.ps1 -BackupPath "D:\MyBackups"
 
 ## 🔧 What This Script Does
-### Account Policies
-## Sets minimum password length to 14 characters
+## Account Policies
+ Sets minimum password length to 14 characters
 
-## Enables password complexity requirements
+ Enables password complexity requirements
 
-## Configures account lockout after 5 failed attempts
+Configures account lockout after 5 failed attempts
 
-## Disables Guest account
+Disables Guest account
 
-## Removes auto-login credentials
+Removes auto-login credentials
 
-###System Security
-## Enables and configures Windows Firewall
+## System Security
+Enables and configures Windows Firewall
 
-## Disables SMBv1 protocol
+Disables SMBv1 protocol
 
-## Configures Windows Defender with maximum protection
+Configures Windows Defender with maximum protection
  
-## Enables UAC with secure settings
+Enables UAC with secure settings
 
-## Disables unnecessary services (Telemetry, Xbox, etc.)
+Disables unnecessary services (Telemetry, Xbox, etc.)
 
-### Audit & Monitoring
-## Enables comprehensive auditing for security events
+## Audit & Monitoring
+Enables comprehensive auditing for security events
 
-## Configures login/logoff auditing
+Configures login/logoff auditing
 
-## Sets up policy change monitoring
+Sets up policy change monitoring
 
-### Additional Hardening
-## Disables AutoRun for all drives
+## Additional Hardening
+Disables AutoRun for all drives
 
-## Configures secure remote desktop settings
+Configures secure remote desktop settings
 
-## Hardens registry settings
+Hardens registry settings
 
-## Disables unnecessary scheduled tasks
+Disables unnecessary scheduled tasks
 
 ### 📁 File Structure
-/
-├── Windows11-Hardening.ps1    # Main hardening script
-├── README.md                  # This file
-└── C:\Windows\Temp\Windows11-Hardening-Backup\  # Auto-created
-    ├── rollback.ps1           # Auto-generated rollback script
-    ├── password_policy_backup.txt
-    └── defender_settings_backup.json
+
+  <img width="623" height="195" alt="image" src="https://github.com/user-attachments/assets/17bd75b1-2cec-4a77-8bd4-5cf0de6f46b7" />
 
 ## 🔄 Rollback Process
 ### The script automatically creates a rollback script that can revert most changes. To use it:
