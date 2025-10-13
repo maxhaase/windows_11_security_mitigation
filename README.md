@@ -1,8 +1,10 @@
 # Windows 11 Security Hardening Script
 
-A comprehensive PowerShell script designed to enhance the security of Windows 11 systems by applying industry-standard security configurations and best practices.
-You shouldn't underestimate hardening windows, it's a black-hat hacker's wet dream; this script will make it relatively harder to break into windows. 
-There are still a lot of people using windows out there, not only in private settings, but even corporate ones. You don't want to be the one getting blammed for an infection! 
+A comprehensive PowerShell script designed to enhance the security posture of Windows 11 systems. This script automates the application of industry-standard security configurations and best practices, saving you time and reducing the risk of misconfiguration.
+
+Why Harden Windows 11?
+Windows is the world's most popular desktop OS, making it a prime target for attackers. A default installation often leaves unnecessary features enabled, creating a larger "attack surface." Securing these settings is a critical first line of defense, especially in corporate environments where a single breach can have significant consequences.
+
 
 
 ## 🛡️ Features
